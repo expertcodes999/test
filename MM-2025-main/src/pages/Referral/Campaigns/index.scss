@@ -1,0 +1,46 @@
+.campaigns {
+    padding: 20px 0;
+    overflow: auto;
+    .data-collection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 700px;
+    }
+    .referral-data, .wager-data {
+        padding: 20px;
+        margin-bottom: 20px;
+        .data-cell {
+            .title {
+                font-family: Nurom;
+                color: white;
+                .icon {
+                    color: #FF01EB;
+                }
+            }
+            .data {
+                font-family: Poppins-Light;
+                color: white;
+                font-size: 12px;
+            }
+            .link-copy {
+                padding: 10px;
+                color: white;
+                font-family: Poppins-Light;
+                font-size: 12px;
+                .icon {
+                    margin-left: 20px;
+                }
+            }
+        }
+        .link-cell {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .alert-icon {
+                color: #FF01EB;
+                margin-left: 20px;
+            }
+        }
+    }
+}

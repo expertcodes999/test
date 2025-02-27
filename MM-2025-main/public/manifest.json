@@ -1,0 +1,25 @@
+{
+  "short_name": "Moon Crash | Crypto Crash Game | Gambling Crypto Game",
+  "name": "Moon Crash is a crypto crash game allowing fan of crypto gambling games to bet and get a chance to win and earn crypto. Play now the best crypto Crash Game.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#160f26",
+  "background_color": "#ffffff"
+}

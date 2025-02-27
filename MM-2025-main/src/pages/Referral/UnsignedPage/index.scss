@@ -1,0 +1,187 @@
+.referral-unsigned {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    .alert-content {
+        position: relative;
+        padding: 20px;
+        
+        .title {
+            font-size: 30px;
+            font-family: Nurom;
+            margin-bottom: 0;
+        }
+        .description {
+            color: white;
+            font-family: Poppins-Light;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            z-index: 1;
+            
+        }
+        .coin-img {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 120px;
+            z-index: -1;
+            @media only screen and (min-width: 800px)
+            {
+                top: -20px;
+                left: 40px;
+                height: calc(100% + 40px);
+            }
+        }
+        .main-content {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .message-content {
+                width: 100%;
+                @media only screen and (min-width: 800px)
+                {
+                    width: 70%;
+                    overflow-wrap: anywhere;
+                }
+            }
+            .monkey-img {
+                position: relative;
+                height: auto;
+                z-index: -1;
+                margin: -20px;
+                float: right;
+                max-width: 350px;
+                @media only screen and (min-width: 800px)
+                {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    margin: 0px;
+                    z-index: 1;
+                }
+            }
+        }
+        .backgorund-imgs {
+            width: 100%;
+            height: 140px;
+            position: relative;
+            z-index: -1;
+            @media only screen and (min-width: 800px)
+            {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+            }
+            .img-container {
+                height: 100%;
+                position: relative;
+                .coin-img {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 160px;
+                    z-index: -1;
+                    
+                }
+                .monkey-img {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    height: 220px;
+                    z-index: 1;
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+    .wallet-connnect-content {
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        .title {
+            color: white;
+            font-family: Nurom;
+            font-size: 18px;
+            text-align: center;
+            @media only screen and (min-width: 800px)
+            {
+                text-align: left;
+                font-size: 22px;
+            }
+        }
+        .work-description {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            @media only screen and (min-width: 800px)
+            {
+                gap: 20px;
+            }
+            @media only screen and (min-width: 1200px)
+            {
+                gap: 30px;
+            }
+            .sub-content {
+                .title-img {
+                    width: 100%;
+                }
+                .description {
+                    color: white;
+                    padding: 10px;
+                    font-family: Poppins-Light;
+                    font-size: 14px;
+                    background: linear-gradient(180deg, #2F2D59 0%, #48296A 100%);
+                    border: 0.5px solid #363966;
+                    border-radius: 2px;
+                    @media only screen and (min-width: 800px)
+                    {
+                        font-size: 16px;
+                    }
+                    @media only screen and (min-width: 1200px)
+                    {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .connect-content {
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @media only screen and (min-width: 800px)
+            {
+                margin-bottom: 0px;
+            }
+            .title {
+                width: 60%;
+                color: white;
+                text-align: center;
+                font-family: Nurom;
+                font-size: 40px;
+            }
+            .connect-button {
+                background: linear-gradient(0deg, #f27145 4.11%, #efbf55 100%);
+                background-size: 100% auto;
+                transition: 0.5s;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 20px;
+                color: white;
+                font-family: Poppins-Light;
+                font-size: 20px;
+                text-shadow: 2px 2px 2px black;
+            }
+        }
+    }
+
+}
