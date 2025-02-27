@@ -1,0 +1,37 @@
+.staking-nft-portrait {
+    width: 100px;
+    margin-right: 10px;
+    position: relative;
+    border: 1px solid #322C76;
+    border-radius: 5px;
+    .staking-nft-portrait-image-back {
+        width: 100%;
+    }
+    .staking-nft-portrait-image {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .staking-nft-portrait-btn {
+        cursor: pointer;
+        .staking-nft-portrait-title {
+            text-align: center;
+            font-size: 12px !important;
+            margin-top: 5px
+        }
+        .staking-nft-portrait-btn-title {
+            width: fit-content;
+            text-align: center;
+            background-color: gray;
+            border-radius: 5px;
+            padding: 3px 6px;
+            font-size: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #7050CB 4.11%, #FF01EB 100%);
+        }
+    }
+}

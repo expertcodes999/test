@@ -1,0 +1,48 @@
+.logged-user-btn {
+  word-spacing: 2px;
+  margin-left: 10px;
+  font-family: Nurom;
+  font-size: 12px;
+  padding: 0 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  @media only screen and (min-width: 1600px) {
+      font-size: 12px;
+      padding: 0 16px;
+  }
+  .username {
+    font-family: Nurom;
+    font-size: 12px;
+    margin-top: -6px !important;
+    @media only screen and (min-width: 1600px) {
+      font-size: 12px;
+      padding: 0 16px;
+      margin-top: 0 !important;
+    }
+  }
+  .logout-btn {
+    cursor: pointer;
+    background-color: #20315D;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+    font-family: Nurom;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    p {
+      margin: 0 10px;
+      font-family: Nurom;
+      font-size: 14px;
+    }
+  }
+  
+}

@@ -1,0 +1,47 @@
+.leaderboard-table {
+    
+    thead tr {
+        border: 2px solid #2A2864;
+        th {
+            font-size: 14px;
+        }
+    }
+    
+    tbody {
+        tr:nth-child(odd) {
+            background-color: transparent !important;
+        }
+        tr:nth-child(even) {
+            background: #322C76;
+        }
+        
+        td {
+            font-size: 12px;
+            padding: 6px;
+            padding-left: 20px;
+        }
+        .status {
+            &.success-stt {
+                color: #6DE713;
+
+            }
+            &.pending-stt {
+                color: #FFAF15;
+
+            }
+        }
+        .tak-amount {
+            img {
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+        .fee {
+            img {
+                width: 20px;
+                margin-left: 10px;
+            }
+        }
+    }
+    
+}

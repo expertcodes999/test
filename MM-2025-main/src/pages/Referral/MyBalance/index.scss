@@ -1,0 +1,52 @@
+.my-balance {
+    width: 100%;
+    @media only screen and (min-width: 1000px) {
+        width: 70%;
+    }
+    .coin-table {
+        padding: 20px;
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            .header-cell {
+                color: white;
+                font-family: Poppins-Light;
+                padding: 0 20px;
+            }
+        }
+        .data-list {
+            .data-cell {
+                display: flex;
+                justify-content:  space-between;
+                padding: 0 20px;
+                .cell-available {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    .coin-img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 10px;
+                        
+                    }
+                    .coin-name {
+                        font-family: Poppins-Light;
+                        color: white;
+                    }
+                }
+                .cell-balance {
+                    font-family: Poppins-Light;
+                    color: white;
+                }
+                &:nth-child(odd) {
+                    background-color: #3C3C97;
+                }
+            }
+        }
+    }
+    .claim-btn {
+        font-family: Poppins-Light;
+        float: right;
+    }
+}

@@ -1,0 +1,194 @@
+.referral-overview {
+    .title {
+        color: white;
+        font-family: Nurom;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .user-data {
+        padding: 20px;
+        display: flex;
+        justify-content: space-betewen;
+        align-items: center;
+        position: relative;
+        .data {
+            z-index: 1;
+            .data-item {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                
+                .data-icon {
+                    display: none;
+                    color: #FF01EB;
+                    font-size: 36px;
+                    margin-right: 10px;
+                }
+                .data-description {
+                    .data-title {
+                        color: white;
+                        font-family: Nurom;
+                        white-space: nowrap;
+                        margin-bottom: -8px;
+                    }
+                    .data-str {
+                        font-family: Nurom;
+                        color: #FF01EB;
+                        margin-bottom: -8px;
+                        font-size: 14px;
+                    }
+                }
+                @media only screen and (min-width: 1000px) {
+                    .data-icon {
+                        display: block;
+                        font-size: 50px;
+                        margin-right: 10px;
+                    }
+                    .data-description {
+                        .data-title {
+                            margin-bottom: -8px;
+                        }
+                        .data-str {
+                            margin-bottom: -8px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .user-name {
+                border-bottom: 2px solid #515189;
+                padding-bottom: 20px;
+            }
+            .fund-data {
+                display: flex;
+                margin-top: 20px;
+                .data-item {
+                    margin-right: 10px;
+                    @media only screen and (min-width: 500px) {
+                        margin-right: 20px !important;
+                    }
+                    @media only screen and (min-width: 1000px) {
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+        .logo-back-title {
+                
+            position: absolute;
+            
+            top: 0px;
+            right: 0px;
+            font-family: Nurom;
+            color: #515189;
+            font-size: 100px;
+            display: none;
+            @media only screen and (min-width: 500px) {
+                display: block;
+            }
+            @media only screen and (min-width: 1000px) {
+                top: -40px;
+                right: 0px;
+                font-size: 190px;
+            }
+        }
+        .logo-img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            display: none;
+            @media only screen and (min-width: 1000px) {
+                display: block;
+            }
+        }
+    }
+    .social-commission {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        @media only screen and (min-width: 900px) {
+            flex-direction: row;
+        }
+        .social-info {
+            padding: 20px;
+            margin-left: 0;
+            margin-right: 0px;
+            @media only screen and (min-width: 900px) {
+                margin-right: 20px;
+            }
+            .info-item {
+                .title {
+                    color: white;
+                    font-family: Nurom;
+                    margin: 0;
+                }
+            }
+            .referral-link {
+                .link {
+                    padding: 5px 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    column-gap: 10px;
+                    .link-str {
+                        color: white;
+                        font-family: Poppins-Light;
+                        font-size: 12px;
+                        margin: 0;
+                        overflow-wrap: anywhere;
+                        max-width: calc(100% - 40px);
+                    }
+                    .link-copy {
+                        color: white;
+                        cursor: pointer;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .promo {
+                margin-top: 10px;
+                .get-promo-btn {
+                    font-family: Poppins-Medium;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .share {
+                .share-collection {
+                    display: flex;
+                    .share-linker {
+                        //cursor: pointer;
+//                         background: linear-gradient(269.81deg, #D246E1 0.17%, #5C52C6 104.53%);
+//   -webkit-background-clip: text;
+  
+                        font-size: 30px;
+                        margin-right: 10px;
+                    }
+                }
+                
+            }
+        }
+        .commission {
+            margin-top: 20px;
+            @media only screen and (min-width: 900px) {
+                margin-top: 0px;
+            }
+            padding: 20px;
+            .title {
+                margin: 0;
+                font-family: Nurom;
+            }
+            .sub-title {
+                color: white;
+                font-family: Nurom;
+                font-size: 14px;
+            }
+            .description {
+                color: white;
+                font-family: Poppins-Light;
+                font-size: 12px;
+            }
+        }
+    }
+}
