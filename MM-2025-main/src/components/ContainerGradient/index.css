@@ -1,5 +1,0 @@
-.custom-container-gradient {
-    border: 2px solid;
-    border-image: linear-gradient(90deg,#7050cb 4.11%,#ff01eb) 1;
-    /* overflow: hidden; */
-}
