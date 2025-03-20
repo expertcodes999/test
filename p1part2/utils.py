@@ -17,6 +17,17 @@ def get_serper_api_key():
     openai_api_key = os.getenv("SERPER_API_KEY")
     return openai_api_key
 
+def get_openrouter_api_key():
+    load_env()
+    return os.getenv("OPENROUTER_API_KEY")
+
+# def get_site_url():
+#     load_env()
+#     return os.getenv("YOUR_SITE_URL")  # Optional
+
+# def get_site_name():
+#     load_env()
+#     return os.getenv("YOUR_SITE_NAME")  # Optional
 
 # break line every 80 characters if line is longer than 80 characters
 # don't break in the middle of a word
